@@ -1,0 +1,412 @@
+12.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+12.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+12.8s 3 0.00s - to python to disable frozen modules.
+12.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+13.6s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+13.6s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+13.6s 7 0.00s - to python to disable frozen modules.
+13.6s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+28.1s 9 Device: cuda
+28.3s 10 /kaggle/input/datasets/chetannarware/loopsea/loop_sea_main/LOOPSEA_10percent_missing.csv
+30.0s 11 
+30.0s 12 ========== 0% Missing ==========
+30.0s 13 
+30.0s 14 ==============================
+30.0s 15 BASELINE: CONVLSTM | 0% MISSING
+30.0s 16 ==============================
+39.2s 17 /usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:1233: RuntimeWarning: All-NaN slice encountered
+39.2s 18 return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+39.2s 19 
+39.2s 20 /usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:1233: RuntimeWarning: All-NaN slice encountered
+39.2s 21 return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+40.9s 22 Model: CONVLSTM
+40.9s 23 Parameters: 148,801
+147.3s 24 Epoch 01 | Train: 0.2840 | Val: 0.2659 | LR: 1.00e-03
+147.3s 25 ✓ Saved best model
+252.8s 26 Epoch 02 | Train: 0.2703 | Val: 0.2622 | LR: 1.00e-03
+252.8s 27 ✓ Saved best model
+358.0s 28 Epoch 03 | Train: 0.2673 | Val: 0.2597 | LR: 1.00e-03
+358.0s 29 ✓ Saved best model
+463.4s 30 Epoch 04 | Train: 0.2658 | Val: 0.2587 | LR: 1.00e-03
+463.4s 31 ✓ Saved best model
+568.5s 32 Epoch 05 | Train: 0.2650 | Val: 0.2591 | LR: 1.00e-03
+673.8s 33 Epoch 06 | Train: 0.2645 | Val: 0.2582 | LR: 1.00e-03
+673.8s 34 ✓ Saved best model
+778.9s 35 Epoch 07 | Train: 0.2641 | Val: 0.2582 | LR: 1.00e-03
+884.0s 36 Epoch 08 | Train: 0.2639 | Val: 0.2577 | LR: 1.00e-03
+884.0s 37 ✓ Saved best model
+989.2s 38 Epoch 09 | Train: 0.2636 | Val: 0.2580 | LR: 1.00e-03
+1094.3s 39 Epoch 10 | Train: 0.2634 | Val: 0.2573 | LR: 1.00e-03
+1094.3s 40 ✓ Saved best model
+1199.6s 41 Epoch 11 | Train: 0.2632 | Val: 0.2596 | LR: 1.00e-03
+1305.0s 42 Epoch 12 | Train: 0.2631 | Val: 0.2570 | LR: 1.00e-03
+1305.0s 43 ✓ Saved best model
+1410.0s 44 Epoch 13 | Train: 0.2629 | Val: 0.2577 | LR: 1.00e-03
+1515.3s 45 Epoch 14 | Train: 0.2628 | Val: 0.2569 | LR: 1.00e-03
+1515.3s 46 ✓ Saved best model
+1620.7s 47 Epoch 15 | Train: 0.2626 | Val: 0.2568 | LR: 1.00e-03
+1620.7s 48 ✓ Saved best model
+1726.2s 49 Epoch 16 | Train: 0.2625 | Val: 0.2563 | LR: 1.00e-03
+1726.2s 50 ✓ Saved best model
+1831.6s 51 Epoch 17 | Train: 0.2624 | Val: 0.2569 | LR: 1.00e-03
+1937.0s 52 Epoch 18 | Train: 0.2622 | Val: 0.2567 | LR: 1.00e-03
+2042.5s 53 Epoch 19 | Train: 0.2622 | Val: 0.2573 | LR: 1.00e-03
+2148.0s 54 Epoch 20 | Train: 0.2621 | Val: 0.2574 | LR: 1.00e-03
+2253.5s 55 Epoch 21 | Train: 0.2620 | Val: 0.2561 | LR: 1.00e-03
+2253.5s 56 ✓ Saved best model
+2358.9s 57 Epoch 22 | Train: 0.2619 | Val: 0.2564 | LR: 1.00e-03
+2464.4s 58 Epoch 23 | Train: 0.2618 | Val: 0.2565 | LR: 1.00e-03
+2569.8s 59 Epoch 24 | Train: 0.2618 | Val: 0.2561 | LR: 1.00e-03
+2675.3s 60 Epoch 25 | Train: 0.2617 | Val: 0.2559 | LR: 1.00e-03
+2675.3s 61 ✓ Saved best model
+2780.8s 62 Epoch 26 | Train: 0.2616 | Val: 0.2564 | LR: 1.00e-03
+2886.2s 63 Epoch 27 | Train: 0.2616 | Val: 0.2558 | LR: 1.00e-03
+2886.2s 64 ✓ Saved best model
+2991.5s 65 Epoch 28 | Train: 0.2615 | Val: 0.2568 | LR: 1.00e-03
+3097.0s 66 Epoch 29 | Train: 0.2614 | Val: 0.2562 | LR: 1.00e-03
+3202.4s 67 Epoch 30 | Train: 0.2614 | Val: 0.2577 | LR: 1.00e-03
+3307.5s 68 Epoch 31 | Train: 0.2613 | Val: 0.2556 | LR: 1.00e-03
+3307.5s 69 ✓ Saved best model
+3412.7s 70 Epoch 32 | Train: 0.2613 | Val: 0.2556 | LR: 1.00e-03
+3412.7s 71 ✓ Saved best model
+3518.1s 72 Epoch 33 | Train: 0.2613 | Val: 0.2559 | LR: 1.00e-03
+3623.4s 73 Epoch 34 | Train: 0.2612 | Val: 0.2559 | LR: 1.00e-03
+3728.4s 74 Epoch 35 | Train: 0.2612 | Val: 0.2562 | LR: 1.00e-03
+3833.8s 75 Epoch 36 | Train: 0.2611 | Val: 0.2556 | LR: 1.00e-03
+3939.2s 76 Epoch 37 | Train: 0.2611 | Val: 0.2553 | LR: 1.00e-03
+3939.2s 77 ✓ Saved best model
+4044.7s 78 Epoch 38 | Train: 0.2610 | Val: 0.2553 | LR: 1.00e-03
+4044.7s 79 ✓ Saved best model
+4150.2s 80 Epoch 39 | Train: 0.2610 | Val: 0.2556 | LR: 1.00e-03
+4255.7s 81 Epoch 40 | Train: 0.2610 | Val: 0.2552 | LR: 1.00e-03
+4255.7s 82 ✓ Saved best model
+4361.2s 83 Epoch 41 | Train: 0.2609 | Val: 0.2566 | LR: 1.00e-03
+4466.6s 84 Epoch 42 | Train: 0.2609 | Val: 0.2552 | LR: 1.00e-03
+4572.1s 85 Epoch 43 | Train: 0.2609 | Val: 0.2553 | LR: 1.00e-03
+4677.6s 86 Epoch 44 | Train: 0.2609 | Val: 0.2549 | LR: 1.00e-03
+4677.6s 87 ✓ Saved best model
+4783.0s 88 Epoch 45 | Train: 0.2609 | Val: 0.2552 | LR: 1.00e-03
+4888.5s 89 Epoch 46 | Train: 0.2608 | Val: 0.2556 | LR: 1.00e-03
+4993.9s 90 Epoch 47 | Train: 0.2608 | Val: 0.2558 | LR: 1.00e-03
+5099.4s 91 Epoch 48 | Train: 0.2607 | Val: 0.2553 | LR: 1.00e-03
+5204.8s 92 Epoch 49 | Train: 0.2607 | Val: 0.2550 | LR: 1.00e-03
+5310.0s 93 Epoch 50 | Train: 0.2607 | Val: 0.2562 | LR: 1.00e-03  → LR dropped to 5.00e-04
+5415.3s 94 Epoch 51 | Train: 0.2601 | Val: 0.2550 | LR: 5.00e-04
+5520.5s 95 Epoch 52 | Train: 0.2601 | Val: 0.2545 | LR: 5.00e-04
+5520.5s 96 ✓ Saved best model
+5625.5s 97 Epoch 53 | Train: 0.2601 | Val: 0.2547 | LR: 5.00e-04
+5730.9s 98 Epoch 54 | Train: 0.2601 | Val: 0.2551 | LR: 5.00e-04
+5836.0s 99 Epoch 55 | Train: 0.2601 | Val: 0.2549 | LR: 5.00e-04
+5941.3s 100 Epoch 56 | Train: 0.2600 | Val: 0.2549 | LR: 5.00e-04
+6046.7s 101 Epoch 57 | Train: 0.2600 | Val: 0.2548 | LR: 5.00e-04
+6152.2s 102 Epoch 58 | Train: 0.2600 | Val: 0.2546 | LR: 5.00e-04  → LR dropped to 2.50e-04
+6257.6s 103 Epoch 59 | Train: 0.2597 | Val: 0.2546 | LR: 2.50e-04
+6363.1s 104 Epoch 60 | Train: 0.2596 | Val: 0.2543 | LR: 2.50e-04
+6363.1s 105 ✓ Saved best model
+6468.5s 106 Epoch 61 | Train: 0.2596 | Val: 0.2543 | LR: 2.50e-04
+6468.5s 107 ✓ Saved best model
+6574.1s 108 Epoch 62 | Train: 0.2596 | Val: 0.2543 | LR: 2.50e-04
+6679.6s 109 Epoch 63 | Train: 0.2596 | Val: 0.2545 | LR: 2.50e-04
+6785.2s 110 Epoch 64 | Train: 0.2596 | Val: 0.2542 | LR: 2.50e-04
+6785.2s 111 ✓ Saved best model
+6890.7s 112 Epoch 65 | Train: 0.2596 | Val: 0.2542 | LR: 2.50e-04
+6890.7s 113 ✓ Saved best model
+6996.3s 114 Epoch 66 | Train: 0.2596 | Val: 0.2541 | LR: 2.50e-04
+6996.3s 115 ✓ Saved best model
+7101.8s 116 Epoch 67 | Train: 0.2596 | Val: 0.2542 | LR: 2.50e-04
+7207.3s 117 Epoch 68 | Train: 0.2595 | Val: 0.2541 | LR: 2.50e-04
+7312.4s 118 Epoch 69 | Train: 0.2595 | Val: 0.2542 | LR: 2.50e-04
+7417.5s 119 Epoch 70 | Train: 0.2595 | Val: 0.2541 | LR: 2.50e-04
+7522.7s 120 Epoch 71 | Train: 0.2595 | Val: 0.2544 | LR: 2.50e-04
+7627.9s 121 Epoch 72 | Train: 0.2595 | Val: 0.2544 | LR: 2.50e-04  → LR dropped to 1.25e-04
+7733.5s 122 Epoch 73 | Train: 0.2593 | Val: 0.2539 | LR: 1.25e-04
+7733.5s 123 ✓ Saved best model
+7838.8s 124 Epoch 74 | Train: 0.2594 | Val: 0.2539 | LR: 1.25e-04
+7838.8s 125 ✓ Saved best model
+7944.0s 126 Epoch 75 | Train: 0.2593 | Val: 0.2542 | LR: 1.25e-04
+8049.4s 127 Epoch 76 | Train: 0.2593 | Val: 0.2540 | LR: 1.25e-04
+8154.5s 128 Epoch 77 | Train: 0.2593 | Val: 0.2540 | LR: 1.25e-04
+8259.9s 129 Epoch 78 | Train: 0.2593 | Val: 0.2539 | LR: 1.25e-04
+8259.9s 130 ✓ Saved best model
+8365.5s 131 Epoch 79 | Train: 0.2593 | Val: 0.2538 | LR: 1.25e-04
+8365.5s 132 ✓ Saved best model
+8471.2s 133 Epoch 80 | Train: 0.2593 | Val: 0.2538 | LR: 1.25e-04
+8471.2s 134 Saved: /kaggle/working/loopsea_base_convlstm_0.pt
+8478.9s 135 MAE  : 2.2614
+8478.9s 136 RMSE : 3.4657
+8478.9s 137 R2   : 0.9288
+8478.9s 138 MAPE : 5.25%
+8478.9s 139 
+8478.9s 140 FINAL RESULT 0%
+8478.9s 141 MAE  : 2.2614
+8478.9s 142 RMSE : 3.4657
+8478.9s 143 R2   : 0.9288
+8478.9s 144 MAPE : 5.25%
+8478.9s 145 
+8478.9s 146 ========== 40% Missing ==========
+8478.9s 147 
+8478.9s 148 ==============================
+8478.9s 149 BASELINE: CONVLSTM | 40% MISSING
+8478.9s 150 ==============================
+8484.2s 151 /usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:1233: RuntimeWarning: All-NaN slice encountered
+8484.2s 152 return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+8484.2s 153 
+8484.2s 154 /usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:1233: RuntimeWarning: All-NaN slice encountered
+8484.2s 155 return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+8485.8s 156 Model: CONVLSTM
+8485.8s 157 Parameters: 148,801
+8591.4s 158 Epoch 01 | Train: 0.4144 | Val: 0.4258 | LR: 1.00e-03
+8591.4s 159 ✓ Saved best model
+8696.7s 160 Epoch 02 | Train: 0.4078 | Val: 0.4230 | LR: 1.00e-03
+8696.7s 161 ✓ Saved best model
+8801.9s 162 Epoch 03 | Train: 0.4059 | Val: 0.4211 | LR: 1.00e-03
+8801.9s 163 ✓ Saved best model
+8907.2s 164 Epoch 04 | Train: 0.4047 | Val: 0.4204 | LR: 1.00e-03
+8907.2s 165 ✓ Saved best model
+9012.7s 166 Epoch 05 | Train: 0.4038 | Val: 0.4193 | LR: 1.00e-03
+9012.7s 167 ✓ Saved best model
+9118.3s 168 Epoch 06 | Train: 0.4029 | Val: 0.4183 | LR: 1.00e-03
+9118.3s 169 ✓ Saved best model
+9223.8s 170 Epoch 07 | Train: 0.4023 | Val: 0.4179 | LR: 1.00e-03
+9223.8s 171 ✓ Saved best model
+9329.4s 172 Epoch 08 | Train: 0.4017 | Val: 0.4172 | LR: 1.00e-03
+9329.4s 173 ✓ Saved best model
+9434.9s 174 Epoch 09 | Train: 0.4013 | Val: 0.4171 | LR: 1.00e-03
+9434.9s 175 ✓ Saved best model
+9540.5s 176 Epoch 10 | Train: 0.4010 | Val: 0.4168 | LR: 1.00e-03
+9540.5s 177 ✓ Saved best model
+9646.1s 178 Epoch 11 | Train: 0.4007 | Val: 0.4164 | LR: 1.00e-03
+9646.1s 179 ✓ Saved best model
+9751.6s 180 Epoch 12 | Train: 0.4005 | Val: 0.4165 | LR: 1.00e-03
+9856.9s 181 Epoch 13 | Train: 0.4002 | Val: 0.4161 | LR: 1.00e-03
+9856.9s 182 ✓ Saved best model
+9962.2s 183 Epoch 14 | Train: 0.4000 | Val: 0.4161 | LR: 1.00e-03
+10067.7s 184 Epoch 15 | Train: 0.3999 | Val: 0.4156 | LR: 1.00e-03
+10067.7s 185 ✓ Saved best model
+10173.3s 186 Epoch 16 | Train: 0.3998 | Val: 0.4161 | LR: 1.00e-03
+10278.6s 187 Epoch 17 | Train: 0.3996 | Val: 0.4158 | LR: 1.00e-03
+10383.9s 188 Epoch 18 | Train: 0.3996 | Val: 0.4155 | LR: 1.00e-03
+10383.9s 189 ✓ Saved best model
+10489.3s 190 Epoch 19 | Train: 0.3994 | Val: 0.4154 | LR: 1.00e-03
+10489.3s 191 ✓ Saved best model
+10594.7s 192 Epoch 20 | Train: 0.3994 | Val: 0.4156 | LR: 1.00e-03
+10700.3s 193 Epoch 21 | Train: 0.3994 | Val: 0.4154 | LR: 1.00e-03
+10700.3s 194 ✓ Saved best model
+10805.8s 195 Epoch 22 | Train: 0.3993 | Val: 0.4152 | LR: 1.00e-03
+10805.8s 196 ✓ Saved best model
+10911.3s 197 Epoch 23 | Train: 0.3993 | Val: 0.4150 | LR: 1.00e-03
+10911.3s 198 ✓ Saved best model
+11016.8s 199 Epoch 24 | Train: 0.3993 | Val: 0.4149 | LR: 1.00e-03
+11016.8s 200 ✓ Saved best model
+11122.4s 201 Epoch 25 | Train: 0.3992 | Val: 0.4151 | LR: 1.00e-03
+11227.9s 202 Epoch 26 | Train: 0.3992 | Val: 0.4152 | LR: 1.00e-03
+11333.5s 203 Epoch 27 | Train: 0.3992 | Val: 0.4150 | LR: 1.00e-03
+11439.0s 204 Epoch 28 | Train: 0.3991 | Val: 0.4156 | LR: 1.00e-03
+11544.5s 205 Epoch 29 | Train: 0.3991 | Val: 0.4153 | LR: 1.00e-03
+11650.1s 206 Epoch 30 | Train: 0.3991 | Val: 0.4154 | LR: 1.00e-03  → LR dropped to 5.00e-04
+11755.6s 207 Epoch 31 | Train: 0.3985 | Val: 0.4146 | LR: 5.00e-04
+11755.6s 208 ✓ Saved best model
+11861.1s 209 Epoch 32 | Train: 0.3985 | Val: 0.4148 | LR: 5.00e-04
+11966.7s 210 Epoch 33 | Train: 0.3985 | Val: 0.4154 | LR: 5.00e-04
+12072.2s 211 Epoch 34 | Train: 0.3984 | Val: 0.4151 | LR: 5.00e-04
+12177.5s 212 Epoch 35 | Train: 0.3984 | Val: 0.4145 | LR: 5.00e-04
+12177.5s 213 ✓ Saved best model
+12283.0s 214 Epoch 36 | Train: 0.3984 | Val: 0.4149 | LR: 5.00e-04
+12388.7s 215 Epoch 37 | Train: 0.3983 | Val: 0.4149 | LR: 5.00e-04
+12493.9s 216 Epoch 38 | Train: 0.3984 | Val: 0.4148 | LR: 5.00e-04
+12599.3s 217 Epoch 39 | Train: 0.3983 | Val: 0.4144 | LR: 5.00e-04
+12599.3s 218 ✓ Saved best model
+12704.7s 219 Epoch 40 | Train: 0.3983 | Val: 0.4149 | LR: 5.00e-04
+12809.9s 220 Epoch 41 | Train: 0.3983 | Val: 0.4146 | LR: 5.00e-04
+12915.2s 221 Epoch 42 | Train: 0.3983 | Val: 0.4146 | LR: 5.00e-04
+13020.6s 222 Epoch 43 | Train: 0.3983 | Val: 0.4146 | LR: 5.00e-04
+13126.1s 223 Epoch 44 | Train: 0.3983 | Val: 0.4144 | LR: 5.00e-04
+13231.6s 224 Epoch 45 | Train: 0.3982 | Val: 0.4147 | LR: 5.00e-04  → LR dropped to 2.50e-04
+13337.1s 225 Epoch 46 | Train: 0.3979 | Val: 0.4143 | LR: 2.50e-04
+13337.1s 226 ✓ Saved best model
+13442.6s 227 Epoch 47 | Train: 0.3979 | Val: 0.4144 | LR: 2.50e-04
+13548.1s 228 Epoch 48 | Train: 0.3978 | Val: 0.4144 | LR: 2.50e-04
+13653.5s 229 Epoch 49 | Train: 0.3979 | Val: 0.4143 | LR: 2.50e-04
+13653.5s 230 ✓ Saved best model
+13758.9s 231 Epoch 50 | Train: 0.3978 | Val: 0.4143 | LR: 2.50e-04
+13864.4s 232 Epoch 51 | Train: 0.3978 | Val: 0.4144 | LR: 2.50e-04
+13969.8s 233 Epoch 52 | Train: 0.3978 | Val: 0.4142 | LR: 2.50e-04
+13969.8s 234 ✓ Saved best model
+14075.2s 235 Epoch 53 | Train: 0.3978 | Val: 0.4143 | LR: 2.50e-04
+14180.7s 236 Epoch 54 | Train: 0.3978 | Val: 0.4143 | LR: 2.50e-04
+14286.2s 237 Epoch 55 | Train: 0.3978 | Val: 0.4144 | LR: 2.50e-04
+14391.5s 238 Epoch 56 | Train: 0.3977 | Val: 0.4143 | LR: 2.50e-04
+14497.0s 239 Epoch 57 | Train: 0.3978 | Val: 0.4142 | LR: 2.50e-04
+14497.0s 240 ✓ Saved best model
+14602.5s 241 Epoch 58 | Train: 0.3977 | Val: 0.4142 | LR: 2.50e-04  → LR dropped to 1.25e-04
+14707.9s 242 Epoch 59 | Train: 0.3975 | Val: 0.4142 | LR: 1.25e-04
+14813.1s 243 Epoch 60 | Train: 0.3975 | Val: 0.4143 | LR: 1.25e-04
+14918.5s 244 Epoch 61 | Train: 0.3975 | Val: 0.4141 | LR: 1.25e-04
+14918.5s 245 ✓ Saved best model
+15023.9s 246 Epoch 62 | Train: 0.3975 | Val: 0.4142 | LR: 1.25e-04
+15129.1s 247 Epoch 63 | Train: 0.3975 | Val: 0.4143 | LR: 1.25e-04
+15234.5s 248 Epoch 64 | Train: 0.3975 | Val: 0.4143 | LR: 1.25e-04
+15339.9s 249 Epoch 65 | Train: 0.3975 | Val: 0.4141 | LR: 1.25e-04
+15339.9s 250 ✓ Saved best model
+15445.4s 251 Epoch 66 | Train: 0.3975 | Val: 0.4140 | LR: 1.25e-04
+15445.4s 252 ✓ Saved best model
+15550.8s 253 Epoch 67 | Train: 0.3975 | Val: 0.4142 | LR: 1.25e-04
+15656.2s 254 Epoch 68 | Train: 0.3974 | Val: 0.4141 | LR: 1.25e-04
+15761.8s 255 Epoch 69 | Train: 0.3975 | Val: 0.4142 | LR: 1.25e-04
+15867.3s 256 Epoch 70 | Train: 0.3974 | Val: 0.4141 | LR: 1.25e-04
+15972.7s 257 Epoch 71 | Train: 0.3974 | Val: 0.4143 | LR: 1.25e-04
+16078.1s 258 Epoch 72 | Train: 0.3974 | Val: 0.4141 | LR: 1.25e-04  → LR dropped to 6.25e-05
+16183.6s 259 Epoch 73 | Train: 0.3973 | Val: 0.4141 | LR: 6.25e-05
+16289.0s 260 Epoch 74 | Train: 0.3973 | Val: 0.4140 | LR: 6.25e-05
+16394.5s 261 Epoch 75 | Train: 0.3973 | Val: 0.4140 | LR: 6.25e-05
+16394.5s 262 ✓ Saved best model
+16500.0s 263 Epoch 76 | Train: 0.3973 | Val: 0.4140 | LR: 6.25e-05
+16605.5s 264 Epoch 77 | Train: 0.3972 | Val: 0.4141 | LR: 6.25e-05
+16710.9s 265 Epoch 78 | Train: 0.3973 | Val: 0.4140 | LR: 6.25e-05  → LR dropped to 3.13e-05
+16816.4s 266 Epoch 79 | Train: 0.3972 | Val: 0.4140 | LR: 3.13e-05
+16922.3s 267 Epoch 80 | Train: 0.3972 | Val: 0.4140 | LR: 3.13e-05
+16922.3s 268 ✓ Saved best model
+16922.3s 269 Saved: /kaggle/working/loopsea_base_convlstm_40.pt
+16929.9s 270 MAE  : 3.9565
+16929.9s 271 RMSE : 6.6474
+16929.9s 272 R2   : 0.6101
+16929.9s 273 MAPE : 9.86%
+16929.9s 274 
+16929.9s 275 FINAL RESULT 40%
+16929.9s 276 MAE  : 3.9565
+16929.9s 277 RMSE : 6.6474
+16929.9s 278 R2   : 0.6101
+16929.9s 279 MAPE : 9.86%
+16929.9s 280 
+16929.9s 281 ========== 80% Missing ==========
+16929.9s 282 
+16929.9s 283 ==============================
+16929.9s 284 BASELINE: CONVLSTM | 80% MISSING
+16929.9s 285 ==============================
+16932.4s 286 /usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:1233: RuntimeWarning: All-NaN slice encountered
+16932.4s 287 return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+16932.4s 288 
+16932.4s 289 /usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:1233: RuntimeWarning: All-NaN slice encountered
+16932.4s 290 return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+16933.8s 291 Model: CONVLSTM
+16933.8s 292 Parameters: 148,801
+17039.0s 293 Epoch 01 | Train: 0.1592 | Val: 0.1681 | LR: 1.00e-03
+17039.0s 294 ✓ Saved best model
+17144.4s 295 Epoch 02 | Train: 0.1590 | Val: 0.1681 | LR: 1.00e-03
+17144.4s 296 ✓ Saved best model
+17249.2s 297 Epoch 03 | Train: 0.1590 | Val: 0.1681 | LR: 1.00e-03
+17249.2s 298 ✓ Saved best model
+17354.3s 299 Epoch 04 | Train: 0.1590 | Val: 0.1680 | LR: 1.00e-03
+17354.3s 300 ✓ Saved best model
+17459.3s 301 Epoch 05 | Train: 0.1590 | Val: 0.1681 | LR: 1.00e-03
+17564.3s 302 Epoch 06 | Train: 0.1590 | Val: 0.1680 | LR: 1.00e-03
+17668.6s 303 Epoch 07 | Train: 0.1590 | Val: 0.1680 | LR: 1.00e-03
+17772.4s 304 Epoch 08 | Train: 0.1590 | Val: 0.1681 | LR: 1.00e-03
+17876.3s 305 Epoch 09 | Train: 0.1590 | Val: 0.1680 | LR: 1.00e-03
+17980.4s 306 Epoch 10 | Train: 0.1590 | Val: 0.1680 | LR: 1.00e-03  → LR dropped to 5.00e-04
+17980.4s 307 ✓ Saved best model
+18084.3s 308 Epoch 11 | Train: 0.1589 | Val: 0.1680 | LR: 5.00e-04
+18187.9s 309 Epoch 12 | Train: 0.1589 | Val: 0.1680 | LR: 5.00e-04
+18291.8s 310 Epoch 13 | Train: 0.1589 | Val: 0.1680 | LR: 5.00e-04
+18395.5s 311 Epoch 14 | Train: 0.1589 | Val: 0.1680 | LR: 5.00e-04
+18499.7s 312 Epoch 15 | Train: 0.1589 | Val: 0.1680 | LR: 5.00e-04
+18499.7s 313 ✓ Saved best model
+18604.0s 314 Epoch 16 | Train: 0.1589 | Val: 0.1681 | LR: 5.00e-04  → LR dropped to 2.50e-04
+18707.7s 315 Epoch 17 | Train: 0.1589 | Val: 0.1680 | LR: 2.50e-04
+18811.4s 316 Epoch 18 | Train: 0.1589 | Val: 0.1680 | LR: 2.50e-04
+18915.2s 317 Epoch 19 | Train: 0.1589 | Val: 0.1680 | LR: 2.50e-04
+19019.4s 318 Epoch 20 | Train: 0.1589 | Val: 0.1680 | LR: 2.50e-04
+19123.6s 319 Epoch 21 | Train: 0.1589 | Val: 0.1680 | LR: 2.50e-04
+19227.3s 320 Epoch 22 | Train: 0.1589 | Val: 0.1680 | LR: 2.50e-04  → LR dropped to 1.25e-04
+19330.8s 321 Epoch 23 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04
+19433.9s 322 Epoch 24 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04
+19538.0s 323 Epoch 25 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04
+19538.0s 324 ✓ Saved best model
+19642.0s 325 Epoch 26 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04
+19745.6s 326 Epoch 27 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04
+19849.4s 327 Epoch 28 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04
+19952.9s 328 Epoch 29 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04
+20056.4s 329 Epoch 30 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04
+20160.4s 330 Epoch 31 | Train: 0.1589 | Val: 0.1680 | LR: 1.25e-04  → LR dropped to 6.25e-05
+20264.2s 331 Epoch 32 | Train: 0.1589 | Val: 0.1680 | LR: 6.25e-05
+20367.6s 332 Epoch 33 | Train: 0.1589 | Val: 0.1680 | LR: 6.25e-05
+20470.8s 333 Epoch 34 | Train: 0.1589 | Val: 0.1680 | LR: 6.25e-05
+20574.3s 334 Epoch 35 | Train: 0.1589 | Val: 0.1680 | LR: 6.25e-05
+20678.1s 335 Epoch 36 | Train: 0.1589 | Val: 0.1680 | LR: 6.25e-05
+20782.1s 336 Epoch 37 | Train: 0.1589 | Val: 0.1680 | LR: 6.25e-05  → LR dropped to 3.13e-05
+20782.1s 337 ✓ Saved best model
+20885.4s 338 Epoch 38 | Train: 0.1589 | Val: 0.1680 | LR: 3.13e-05
+20987.5s 339 Epoch 39 | Train: 0.1589 | Val: 0.1680 | LR: 3.13e-05
+21089.9s 340 Epoch 40 | Train: 0.1589 | Val: 0.1680 | LR: 3.13e-05
+21192.5s 341 Epoch 41 | Train: 0.1589 | Val: 0.1680 | LR: 3.13e-05
+21295.5s 342 Epoch 42 | Train: 0.1589 | Val: 0.1680 | LR: 3.13e-05
+21295.5s 343 ✓ Saved best model
+21399.2s 344 Epoch 43 | Train: 0.1589 | Val: 0.1680 | LR: 3.13e-05  → LR dropped to 1.56e-05
+21503.0s 345 Epoch 44 | Train: 0.1589 | Val: 0.1680 | LR: 1.56e-05
+21503.0s 346 ✓ Saved best model
+21605.8s 347 Epoch 45 | Train: 0.1589 | Val: 0.1680 | LR: 1.56e-05
+21708.0s 348 Epoch 46 | Train: 0.1589 | Val: 0.1680 | LR: 1.56e-05
+21809.6s 349 Epoch 47 | Train: 0.1589 | Val: 0.1680 | LR: 1.56e-05
+21911.5s 350 Epoch 48 | Train: 0.1589 | Val: 0.1680 | LR: 1.56e-05
+22014.8s 351 Epoch 49 | Train: 0.1589 | Val: 0.1680 | LR: 1.56e-05  → LR dropped to 1.00e-05
+22117.8s 352 Epoch 50 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+22220.5s 353 Epoch 51 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+22220.5s 354 ✓ Saved best model
+22323.2s 355 Epoch 52 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+22425.2s 356 Epoch 53 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+22425.2s 357 ✓ Saved best model
+22526.3s 358 Epoch 54 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+22626.9s 359 Epoch 55 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+22727.2s 360 Epoch 56 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+22827.6s 361 Epoch 57 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+22927.8s 362 Epoch 58 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23027.9s 363 Epoch 59 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23127.9s 364 Epoch 60 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23227.9s 365 Epoch 61 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23327.4s 366 Epoch 62 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23426.2s 367 Epoch 63 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23524.8s 368 Epoch 64 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23623.3s 369 Epoch 65 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23722.0s 370 Epoch 66 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23820.4s 371 Epoch 67 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23919.1s 372 Epoch 68 | Train: 0.1589 | Val: 0.1680 | LR: 1.00e-05
+23919.1s 373 Early stopping triggered
+23919.1s 374 Saved: /kaggle/working/loopsea_base_convlstm_80.pt
+23926.1s 375 MAE  : 1.5370
+23926.1s 376 RMSE : 5.3284
+23926.1s 377 R2   : 0.5090
+23926.1s 378 MAPE : 5.65%
+23926.1s 379 
+23926.1s 380 FINAL RESULT 80%
+23926.1s 381 MAE  : 1.5370
+23926.1s 382 RMSE : 5.3284
+23926.1s 383 R2   : 0.5090
+23926.1s 384 MAPE : 5.65%
+23926.1s 385 
+23926.1s 386 =============== SUMMARY ===============
+23926.1s 387 
+23926.1s 388 0% Missing
+23926.1s 389 MAE  : 2.2614
+23926.1s 390 RMSE : 3.4657
+23926.1s 391 R2   : 0.9288
+23926.1s 392 MAPE : 5.25%
+23926.1s 393 
+23926.1s 394 40% Missing
+23926.1s 395 MAE  : 3.9565
+23926.1s 396 RMSE : 6.6474
+23926.1s 397 R2   : 0.6101
+23926.1s 398 MAPE : 9.86%
+23926.1s 399 
+23926.1s 400 80% Missing
+23926.1s 401 MAE  : 1.5370
+23926.1s 402 RMSE : 5.3284
+23926.1s 403 R2   : 0.5090
+23926.1s 404 MAPE : 5.65%
+23932.4s 405 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+23932.4s 406 cells[i][c] = re.sub('\\\\\|', '|', cell)
+23932.6s 407 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+23932.6s 408 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+23933.4s 409 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+23934.4s 410 [NbConvertApp] Writing 2714707 bytes to __notebook__.ipynb
+23936.7s 411 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+23938.0s 412 [NbConvertApp] Writing 2511180 bytes to __results__.html

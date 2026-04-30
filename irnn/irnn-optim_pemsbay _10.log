@@ -1,0 +1,191 @@
+10.4s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.4s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.4s 3 0.00s - to python to disable frozen modules.
+10.4s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+11.3s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+11.3s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+11.3s 7 0.00s - to python to disable frozen modules.
+11.3s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+25.9s 9 Device: cuda
+26.0s 10 /kaggle/input/datasets/chetannarware/pemsbay/pemsbaay/pemsbay_10percent_missing.csv
+27.5s 11 
+27.5s 12 ========== 10% Missing ==========
+27.5s 13 
+27.5s 14 ==============================
+27.5s 15 STARTING EXPERIMENT: 10% MISSING
+27.5s 16 ==============================
+30.7s 17 /usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:1233: RuntimeWarning: All-NaN slice encountered
+30.7s 18 return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+30.7s 19 
+30.7s 20 /usr/local/lib/python3.12/dist-packages/numpy/lib/_nanfunctions_impl.py:1233: RuntimeWarning: All-NaN slice encountered
+30.7s 21 return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+31.3s 22 Mean (first 5): [ 0.       67.564285 59.06071  59.074856 62.242554]
+31.3s 23 Std  (first 5): [ 1.        8.230307 13.216922 11.836615  8.539279]
+32.9s 24 Using device: cuda
+32.9s 25 Parameters: 92,492
+48.7s 26 Epoch 01 | Train: 0.4174 | Val: 0.3774 | LR: 1.00e-03
+48.7s 27 ✓ Saved best model
+57.6s 28 Epoch 02 | Train: 0.3567 | Val: 0.3632 | LR: 1.00e-03
+57.6s 29 ✓ Saved best model
+66.2s 30 Epoch 03 | Train: 0.3428 | Val: 0.3583 | LR: 1.00e-03
+66.2s 31 ✓ Saved best model
+75.4s 32 Epoch 04 | Train: 0.3346 | Val: 0.3530 | LR: 1.00e-03
+75.4s 33 ✓ Saved best model
+84.6s 34 Epoch 05 | Train: 0.3286 | Val: 0.3512 | LR: 1.00e-03
+84.6s 35 ✓ Saved best model
+93.9s 36 Epoch 06 | Train: 0.3237 | Val: 0.3482 | LR: 1.00e-03
+93.9s 37 ✓ Saved best model
+103.0s 38 Epoch 07 | Train: 0.3199 | Val: 0.3455 | LR: 1.00e-03
+103.0s 39 ✓ Saved best model
+111.7s 40 Epoch 08 | Train: 0.3166 | Val: 0.3438 | LR: 1.00e-03
+111.7s 41 ✓ Saved best model
+120.7s 42 Epoch 09 | Train: 0.3141 | Val: 0.3417 | LR: 1.00e-03
+120.7s 43 ✓ Saved best model
+130.3s 44 Epoch 10 | Train: 0.3120 | Val: 0.3410 | LR: 1.00e-03
+130.3s 45 ✓ Saved best model
+140.2s 46 Epoch 11 | Train: 0.3101 | Val: 0.3380 | LR: 1.00e-03
+140.2s 47 ✓ Saved best model
+149.9s 48 Epoch 12 | Train: 0.3085 | Val: 0.3372 | LR: 1.00e-03
+149.9s 49 ✓ Saved best model
+159.0s 50 Epoch 13 | Train: 0.3074 | Val: 0.3367 | LR: 1.00e-03
+159.0s 51 ✓ Saved best model
+167.6s 52 Epoch 14 | Train: 0.3063 | Val: 0.3361 | LR: 1.00e-03
+167.6s 53 ✓ Saved best model
+176.5s 54 Epoch 15 | Train: 0.3053 | Val: 0.3349 | LR: 1.00e-03
+176.5s 55 ✓ Saved best model
+185.6s 56 Epoch 16 | Train: 0.3043 | Val: 0.3354 | LR: 1.00e-03
+194.8s 57 Epoch 17 | Train: 0.3038 | Val: 0.3333 | LR: 1.00e-03
+194.8s 58 ✓ Saved best model
+204.0s 59 Epoch 18 | Train: 0.3031 | Val: 0.3325 | LR: 1.00e-03
+204.0s 60 ✓ Saved best model
+213.0s 61 Epoch 19 | Train: 0.3025 | Val: 0.3331 | LR: 1.00e-03
+221.8s 62 Epoch 20 | Train: 0.3021 | Val: 0.3328 | LR: 1.00e-03
+230.8s 63 Epoch 21 | Train: 0.3015 | Val: 0.3311 | LR: 1.00e-03
+230.8s 64 ✓ Saved best model
+240.0s 65 Epoch 22 | Train: 0.3010 | Val: 0.3317 | LR: 1.00e-03
+249.1s 66 Epoch 23 | Train: 0.3007 | Val: 0.3320 | LR: 1.00e-03
+258.1s 67 Epoch 24 | Train: 0.3001 | Val: 0.3308 | LR: 1.00e-03
+258.1s 68 ✓ Saved best model
+267.2s 69 Epoch 25 | Train: 0.2999 | Val: 0.3314 | LR: 1.00e-03
+276.2s 70 Epoch 26 | Train: 0.2995 | Val: 0.3303 | LR: 1.00e-03
+276.2s 71 ✓ Saved best model
+285.2s 72 Epoch 27 | Train: 0.2993 | Val: 0.3320 | LR: 1.00e-03
+294.4s 73 Epoch 28 | Train: 0.2989 | Val: 0.3307 | LR: 1.00e-03
+303.6s 74 Epoch 29 | Train: 0.2988 | Val: 0.3299 | LR: 1.00e-03
+303.6s 75 ✓ Saved best model
+312.8s 76 Epoch 30 | Train: 0.2984 | Val: 0.3295 | LR: 1.00e-03
+312.8s 77 ✓ Saved best model
+321.6s 78 Epoch 31 | Train: 0.2982 | Val: 0.3293 | LR: 1.00e-03
+321.6s 79 ✓ Saved best model
+330.8s 80 Epoch 32 | Train: 0.2979 | Val: 0.3281 | LR: 1.00e-03
+330.8s 81 ✓ Saved best model
+340.0s 82 Epoch 33 | Train: 0.2978 | Val: 0.3301 | LR: 1.00e-03
+349.2s 83 Epoch 34 | Train: 0.2976 | Val: 0.3285 | LR: 1.00e-03
+357.9s 84 Epoch 35 | Train: 0.2974 | Val: 0.3287 | LR: 1.00e-03
+367.0s 85 Epoch 36 | Train: 0.2973 | Val: 0.3284 | LR: 1.00e-03
+376.3s 86 Epoch 37 | Train: 0.2970 | Val: 0.3291 | LR: 1.00e-03
+385.4s 87 Epoch 38 | Train: 0.2967 | Val: 0.3281 | LR: 1.00e-03
+385.4s 88 ✓ Saved best model
+394.4s 89 Epoch 39 | Train: 0.2967 | Val: 0.3282 | LR: 1.00e-03
+403.7s 90 Epoch 40 | Train: 0.2968 | Val: 0.3274 | LR: 1.00e-03
+403.7s 91 ✓ Saved best model
+412.7s 92 Epoch 41 | Train: 0.2965 | Val: 0.3286 | LR: 1.00e-03
+421.9s 93 Epoch 42 | Train: 0.2965 | Val: 0.3287 | LR: 1.00e-03
+430.8s 94 Epoch 43 | Train: 0.2962 | Val: 0.3274 | LR: 1.00e-03
+430.8s 95 ✓ Saved best model
+440.0s 96 Epoch 44 | Train: 0.2960 | Val: 0.3266 | LR: 1.00e-03
+440.0s 97 ✓ Saved best model
+449.2s 98 Epoch 45 | Train: 0.2960 | Val: 0.3284 | LR: 1.00e-03
+458.3s 99 Epoch 46 | Train: 0.2959 | Val: 0.3266 | LR: 1.00e-03
+458.3s 100 ✓ Saved best model
+467.3s 101 Epoch 47 | Train: 0.2957 | Val: 0.3265 | LR: 1.00e-03
+467.3s 102 ✓ Saved best model
+476.4s 103 Epoch 48 | Train: 0.2956 | Val: 0.3275 | LR: 1.00e-03
+485.6s 104 Epoch 49 | Train: 0.2955 | Val: 0.3271 | LR: 1.00e-03
+495.0s 105 Epoch 50 | Train: 0.2956 | Val: 0.3272 | LR: 1.00e-03
+504.0s 106 Epoch 51 | Train: 0.2954 | Val: 0.3278 | LR: 1.00e-03
+512.9s 107 Epoch 52 | Train: 0.2953 | Val: 0.3283 | LR: 1.00e-03
+522.0s 108 Epoch 53 | Train: 0.2953 | Val: 0.3272 | LR: 1.00e-03  → LR dropped to 5.00e-04
+531.2s 109 Epoch 54 | Train: 0.2917 | Val: 0.3235 | LR: 5.00e-04
+531.2s 110 ✓ Saved best model
+540.2s 111 Epoch 55 | Train: 0.2916 | Val: 0.3236 | LR: 5.00e-04
+548.9s 112 Epoch 56 | Train: 0.2914 | Val: 0.3237 | LR: 5.00e-04
+558.2s 113 Epoch 57 | Train: 0.2913 | Val: 0.3236 | LR: 5.00e-04
+567.4s 114 Epoch 58 | Train: 0.2912 | Val: 0.3227 | LR: 5.00e-04
+567.4s 115 ✓ Saved best model
+576.5s 116 Epoch 59 | Train: 0.2910 | Val: 0.3234 | LR: 5.00e-04
+585.5s 117 Epoch 60 | Train: 0.2908 | Val: 0.3228 | LR: 5.00e-04
+594.6s 118 Epoch 61 | Train: 0.2907 | Val: 0.3225 | LR: 5.00e-04
+594.6s 119 ✓ Saved best model
+603.7s 120 Epoch 62 | Train: 0.2906 | Val: 0.3230 | LR: 5.00e-04
+612.9s 121 Epoch 63 | Train: 0.2904 | Val: 0.3236 | LR: 5.00e-04
+621.9s 122 Epoch 64 | Train: 0.2905 | Val: 0.3222 | LR: 5.00e-04
+621.9s 123 ✓ Saved best model
+631.2s 124 Epoch 65 | Train: 0.2902 | Val: 0.3226 | LR: 5.00e-04
+640.1s 125 Epoch 66 | Train: 0.2903 | Val: 0.3226 | LR: 5.00e-04
+649.4s 126 Epoch 67 | Train: 0.2901 | Val: 0.3219 | LR: 5.00e-04
+649.4s 127 ✓ Saved best model
+658.6s 128 Epoch 68 | Train: 0.2901 | Val: 0.3231 | LR: 5.00e-04
+667.6s 129 Epoch 69 | Train: 0.2900 | Val: 0.3227 | LR: 5.00e-04
+676.8s 130 Epoch 70 | Train: 0.2899 | Val: 0.3219 | LR: 5.00e-04
+676.8s 131 ✓ Saved best model
+685.9s 132 Epoch 71 | Train: 0.2899 | Val: 0.3223 | LR: 5.00e-04
+695.0s 133 Epoch 72 | Train: 0.2897 | Val: 0.3219 | LR: 5.00e-04
+703.9s 134 Epoch 73 | Train: 0.2896 | Val: 0.3210 | LR: 5.00e-04
+703.9s 135 ✓ Saved best model
+713.1s 136 Epoch 74 | Train: 0.2897 | Val: 0.3219 | LR: 5.00e-04
+722.3s 137 Epoch 75 | Train: 0.2895 | Val: 0.3222 | LR: 5.00e-04
+731.2s 138 Epoch 76 | Train: 0.2893 | Val: 0.3219 | LR: 5.00e-04
+739.8s 139 Epoch 77 | Train: 0.2894 | Val: 0.3211 | LR: 5.00e-04
+748.5s 140 Epoch 78 | Train: 0.2893 | Val: 0.3219 | LR: 5.00e-04
+757.2s 141 Epoch 79 | Train: 0.2892 | Val: 0.3209 | LR: 5.00e-04
+757.2s 142 ✓ Saved best model
+766.3s 143 Epoch 80 | Train: 0.2892 | Val: 0.3208 | LR: 5.00e-04
+766.3s 144 ✓ Saved best model
+766.3s 145 Saved: /kaggle/working/pemsbay_irnn_10.pt
+767.3s 146 
+767.3s 147 ==============================
+767.3s 148 Normalized Results
+767.3s 149 ==============================
+767.3s 150 MAE  : 0.2868
+767.3s 151 RMSE : 0.5841
+767.3s 152 
+767.3s 153 ==============================
+767.3s 154 Denormalized Results (Real Scale)
+767.3s 155 ==============================
+767.3s 156 MAE  : 2.2449
+767.3s 157 RMSE : 4.5463
+767.3s 158 R2   : 0.6669
+767.3s 159 MAPE : 4.86%
+767.3s 160 
+767.3s 161 FINAL RESULT 10%
+767.3s 162 MAE  : 2.2449
+767.3s 163 RMSE : 4.5463
+767.3s 164 R2   : 0.6669
+767.3s 165 MAPE : 4.86%
+771.2s 166 Traceback (most recent call last):
+771.2s 167 File "<string>", line 1, in <module>
+771.2s 168 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 131, in execute_notebook
+771.2s 169 raise_for_execution_errors(nb, output_path)
+771.2s 170 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+771.2s 171 raise error
+771.2s 172 papermill.exceptions.PapermillExecutionError:
+771.2s 173 ---------------------------------------------------------------------------
+771.2s 174 Exception encountered at "In [9]":
+771.2s 175 ---------------------------------------------------------------------------
+771.2s 176 NameError                                 Traceback (most recent call last)
+771.2s 177 /tmp/ipykernel_23/1781049091.py in <cell line: 0>()
+771.2s 178 17 print(f"MAPE : {mape:.2f}%")
+771.2s 179 18
+771.2s 180 ---> 19 clear_memory()
+771.2s 181 
+771.2s 182 NameError: name 'clear_memory' is not defined
+771.2s 183 
+773.7s 184 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+773.7s 185 cells[i][c] = re.sub('\\\\\|', '|', cell)
+774.0s 186 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+774.0s 187 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+774.7s 188 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+775.2s 189 [NbConvertApp] Writing 965900 bytes to __notebook__.ipynb
+777.7s 190 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+778.7s 191 [NbConvertApp] Writing 1098180 bytes to __results__.html
